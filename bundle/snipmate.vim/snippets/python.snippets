@@ -1,17 +1,17 @@
-snippet #!
-	#!/usr/bin/env python
-snippet cd
-	#coding: utf-8
 snippet ''
 	'''${1}'''
 snippet imp
 	import ${1:module}
 # Module Docstring
 snippet docs
+	#!/usr/bin/env python3
+	# -*- coding: utf-8 -*-
+
 	'''
-	File: ${1:`Filename('$1.py', 'foo.py')`}
-	Author: ${2:`g:snips_author`}
-	Description: ${3}
+	@file: ${1:`Filename('$1.py', 'foo.py')`}
+	@author: ${2:`g:snips_author`}
+	@email: ${3:`g:snips_email`}
+	@description: ${4}
 	'''
 snippet wh
 	while ${1:condition}:

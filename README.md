@@ -16,12 +16,15 @@ cp ~/.vim/vimrc ~/.vimrc
 由于在终端背景颜色为黑色的时候，用 vim 打开的文件中的注释看不清，因此需要将注释的颜色改成其他颜色：
 
 打开 **~/.vimrc**，在最后添加如下： 
+
 **hi Comment ctermfg = blue**
+
 其中，blue 为蓝色，也可以修改成其他颜色。
 
 ### 2.2 配置 snippets
 
 所有编程语言相关的 snippet 文件都在下面这个目录里：
+
 **~/.vim/bundle/snipmate.vim/snippets/**
 
 可以根据相应格式进行增删改。

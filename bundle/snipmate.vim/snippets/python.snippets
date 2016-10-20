@@ -3,7 +3,7 @@ snippet ''
 snippet imp
 	import ${1:module}
 # Module Docstring
-snippet docs
+snippet docpy
 	#!/usr/bin/env python3
 	# -*- coding: utf-8 -*-
 
@@ -11,7 +11,8 @@ snippet docs
 	@file: ${1:`Filename('$1.py', 'foo.py')`}
 	@author: ${2:`g:snips_author`}
 	@email: ${3:`g:snips_email`}
-	@description: ${4}
+	@language: ${4: Python3}
+	@description: ${5}
 	'''
 snippet wh
 	while ${1:condition}:

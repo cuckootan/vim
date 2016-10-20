@@ -1,11 +1,3 @@
-snippet doch
-	/*
-	 * @file: ${1:`Filename('$1.h', 'foo.h')`}
-	 * @author: ${2:`g:snips_author`}
-	 * @email: ${3:`g:snips_email`}
-	 * @language: ${4:C++}
-	 * @description: ${5}
-	 */
 snippet doccc
 	/*
 	 * @file: ${1:`Filename('$1.cc', 'foo.cc')`}
@@ -14,13 +6,6 @@ snippet doccc
 	 * @language: ${4:C++}
 	 * @description: ${5}
 	 */
-# #ifndef ... #define ... #endif
-snippet deff
-	#ifndef ${1:SYMBOL}
-	#define $1
-	${2}
-	#endif  /*$1*/
-
 # std::map
 snippet fori
 	for (int ${2:i} = 0; $2 < ${1:count}; $2${3:++}) {

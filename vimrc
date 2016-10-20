@@ -62,6 +62,5 @@ let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 hi Comment ctermfg = blue
 
 " Snippets variables
-let g:snips_author = 'Jason Tan'
-let g:snips_email = 'jxtan $(AT) outlook $(DOT) com'
+let g:snips_author = 'Jason Tan <jxtan $(AT) outlook $(DOT) com>'
 set rtp+=~/.vim/bundle/snipmate.vim/snippets/'

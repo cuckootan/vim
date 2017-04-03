@@ -1,5 +1,5 @@
 snippet doch
-	/*
+	/**
 	 * @file: ${1:`Filename('$1.h', 'foo.h')`}
 	 * @author: ${2:`g:snips_author`}
 	 * @language: ${3:C}
@@ -7,7 +7,7 @@ snippet doch
 	 */
 
 snippet docc
-	/*
+	/**
 	 * @file: ${1:`Filename('$1.c', 'foo.c')`}
 	 * @author: ${2:`g:snips_author`}
 	 * @language: ${3:C}
@@ -16,14 +16,12 @@ snippet docc
 
 # main()
 snippet main
-	int main(int argc, const char *argv[])
-	{
+	int main(int argc, const char *argv[]) {
 		${1}
 		return 0;
 	}
 snippet mainn
-	int main(void)
-	{
+	int main(void) {
 		${1}
 		return 0;
 	}
@@ -64,9 +62,9 @@ snippet err
 		do { \
 			perror(m);\
 			exit(EXIT_FAILURE);\
-		}while(0)
+		} while(0)
 snippet swap
-	void swap(int *a, int *b){
+	void swap(int *a, int *b) {
 		int temp = *a;
 		*a = *b;
 		*b = temp;
@@ -99,7 +97,7 @@ snippet st
 	};
 # Typedef struct
 snippet tds
-	typedef struct ${2:_$1 }{
+	typedef struct ${2:_$1 } {
 		${3}
 	}${1:tag};
 snippet lockinit

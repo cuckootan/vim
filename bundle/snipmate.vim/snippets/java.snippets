@@ -1,5 +1,5 @@
 snippet docjava
-	/*
+	/**
 	 * @file: ${1:`Filename('$1.java', 'foo.java')`}
 	 * @author: ${2:`g:snips_author`}
 	 * @language: ${3:Java}
@@ -7,8 +7,7 @@ snippet docjava
 	 */
 
 snippet main
-	public static void main (String [] args)
-	{
+	public static void main (String [] args) {
 		${1:/* code */}
 	}
 snippet pu
@@ -31,7 +30,7 @@ snippet de
 	default:
 		${1}
 snippet ca
-	catch(${1:Exception} ${2:e}) ${3}
+	catch (${1:Exception} ${2:e}) ${3}
 snippet th
 	throw 
 snippet sy
@@ -70,7 +69,7 @@ snippet cs
 	case ${1}:
 		${2}
 	${3}
-snippet java
+snippet tc
 	public class ${1:`Filename()`} extends ${2:TestCase}
 snippet t
 	public void test${1:Name}() throws Exception ${2}
@@ -91,12 +90,12 @@ snippet as
 snippet try
 	try {
 		${3}
-	} catch(${1:Exception} ${2:e}) {
+	} catch (${1:Exception} ${2:e}) {
 	}
 snippet tryf
 	try {
 		${3}
-	} catch(${1:Exception} ${2:e}) {
+	} catch (${1:Exception} ${2:e}) {
 	} finally {
 	}
 snippet rst

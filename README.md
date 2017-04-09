@@ -5,7 +5,7 @@ My Vim configuration bundle forked from guochunyang.
 ## 1 下载与安装
 
 ```shell
-git clone git@github.com:cuckootan/vim.git ~/.vim
+git clone https://github.com/cuckootan/vim.git ~/.vim
 cp ~/.vim/vimrc ~/.vimrc
 ```
 
